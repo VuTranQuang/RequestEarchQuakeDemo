@@ -12,6 +12,9 @@
 		9726DA5F22714285005AFA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9726DA5D22714285005AFA19 /* Main.storyboard */; };
 		9726DA6122714287005AFA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9726DA6022714287005AFA19 /* Assets.xcassets */; };
 		9726DA6422714287005AFA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9726DA6222714287005AFA19 /* LaunchScreen.storyboard */; };
+		9726DA6D227142D6005AFA19 /* EarthQuake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9726DA6C227142D6005AFA19 /* EarthQuake.swift */; };
+		9726DA6F227153EC005AFA19 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9726DA6E227153EC005AFA19 /* DataServices.swift */; };
+		97F61B47227AD72F0011F8F1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F61B46227AD72F0011F8F1 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9726DA6022714287005AFA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9726DA6322714287005AFA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9726DA6522714287005AFA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9726DA6C227142D6005AFA19 /* EarthQuake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuake.swift; sourceTree = "<group>"; };
+		9726DA6E227153EC005AFA19 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		97F61B46227AD72F0011F8F1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,23 @@
 			children = (
 				9726DA5922714285005AFA19 /* AppDelegate.swift */,
 				9726DA5B22714285005AFA19 /* ViewController.swift */,
+				97F61B46227AD72F0011F8F1 /* TableViewCell.swift */,
+				9726DA6B2271429B005AFA19 /* Model */,
 				9726DA5D22714285005AFA19 /* Main.storyboard */,
 				9726DA6022714287005AFA19 /* Assets.xcassets */,
 				9726DA6222714287005AFA19 /* LaunchScreen.storyboard */,
 				9726DA6522714287005AFA19 /* Info.plist */,
 			);
 			path = RequestApiEarthQuakeDemo;
+			sourceTree = "<group>";
+		};
+		9726DA6B2271429B005AFA19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9726DA6C227142D6005AFA19 /* EarthQuake.swift */,
+				9726DA6E227153EC005AFA19 /* DataServices.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F61B47227AD72F0011F8F1 /* TableViewCell.swift in Sources */,
 				9726DA5C22714285005AFA19 /* ViewController.swift in Sources */,
+				9726DA6D227142D6005AFA19 /* EarthQuake.swift in Sources */,
 				9726DA5A22714285005AFA19 /* AppDelegate.swift in Sources */,
+				9726DA6F227153EC005AFA19 /* DataServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
